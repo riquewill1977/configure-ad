@@ -42,7 +42,8 @@ fill out the highlighted sections
 
 ![image](https://github.com/riquewill1977/configure-ad/assets/139101776/1e36be9c-c7bd-4bdb-b425-1db5dda5e38b)
 
-![dc1 vm](https://github.com/riquewill1977/configure-ad/assets/139101776/f5b6da83-8fea-4bbd-9b3d-3d6a67294f3b)
+![image](https://github.com/riquewill1977/configure-ad/assets/139101776/530b9960-721b-4837-a59e-78b9bc6edc1c)
+
 
 
 2. Set Domain Controller’s NIC Private IP address to be static
