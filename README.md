@@ -83,7 +83,8 @@ fill out the highlighted sections
 
 7. Check back at Client-1 to see the ping succeed
 
-   ![Screenshot 2024-03-13 184913](https://github.com/riquewill1977/configure-ad/assets/139101776/40d01138-1504-44a0-9d0d-c6a7f1e6e94f)
+   ![Screenshot 2024-03-13 184913](https://github.com/riquewill1977/configure-ad/assets/139101776/7ba390ee-27fd-4afc-beec-c6aa109048cb)
+
 
 
    
