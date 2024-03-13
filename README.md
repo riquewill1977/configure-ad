@@ -31,7 +31,7 @@ Welcome back! This tutorial outlines the implementation of on-premises Active Di
 
 
 1. Create the Domain Controller VM (Windows Server 2022) named “DC-1"<b />
-  a. Take note of the Resource Group and Virtual Network (Vnet) that get created at this time<b />
+ <p>a. Take note of the Resource Group and Virtual Network (Vnet) that get created at this time</p><b />
 2. Set Domain Controller’s NIC Private IP address to be static<b />
 DC-1 > Networking > NIC > IP Configurations<b />
 
