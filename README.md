@@ -29,13 +29,8 @@ Welcome back! This tutorial outlines the implementation of on-premises Active Di
 
 <h2>Setup Resources in Azure</h2>
 
-
-1. Create the Domain Controller VM (Windows Server 2022) named “DC-1"<b />
-- a. Take note of the Resource Group and Virtual Network (Vnet) that get created at this time<b />
-2. Set Domain Controller’s NIC Private IP address to be static<b />
-DC-1 > Networking > NIC > IP Configurations<b />
-
-
-3. Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in the DC-1 Step 1.a .<b />
-4. Ensure that both VMs are in the same Vnet [you can check the topology with Network Watcher]<b />
-Here is an illustration of what we are doing:<b />
+- Create the Domain Controller VM (Windows Server 2022) named “DC-1”
+1. Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
+- Set Domain Controller’s NIC Private IP address to be static
+- Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in Step 1.a
+- Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher
