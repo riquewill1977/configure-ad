@@ -29,8 +29,6 @@ This tutorial delineates the procedural framework for integrating on-premises Ac
 
 1. Create the Domain Controller VM (Windows Server 2022) named “DC-1” (Take note of the Resource Group and Vnet that get created at this time)
 
-![image](https://github.com/riquewill1977/configure-ad/assets/139101776/eb12ab50-3198-4d86-bbcd-5bbf23681b29)
-
 fill out the highlighted sections
 
 - Resource group
