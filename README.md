@@ -34,3 +34,16 @@ a) Take note of the Resource Group and Virtual Network (Vnet) that get created a
 - Set Domain Controller’s NIC Private IP address to be static
 - Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in Step 1.a
 - Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher
+
+
+The following list will be alphabetical:
+
+a. first item
+b. second item
+c. third item
+
+The following list will be numbered:
+
+1. first item
+2. second item
+3. third item
