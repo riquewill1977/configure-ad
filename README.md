@@ -28,6 +28,35 @@ This tutorial delineates the procedural framework for integrating on-premises Ac
 <h2>Setup Resources in Azure</h2>
 
 1. Create the Domain Controller VM (Windows Server 2022) named “DC-1” (Take note of the Resource Group and Vnet that get created at this time)
+
+![image](https://github.com/riquewill1977/configure-ad/assets/139101776/eb12ab50-3198-4d86-bbcd-5bbf23681b29)
+
+fill out the highlighted sections
+
+- Resource group
+- Virtual machine name
+- Region
+- Image (choose Windows Server 2022)
+- Size
+- username
+- password
+- check both boxes for licensing.
+
+![image](https://github.com/riquewill1977/configure-ad/assets/139101776/1e36be9c-c7bd-4bdb-b425-1db5dda5e38b)
+
+![dc1 vm](https://github.com/riquewill1977/configure-ad/assets/139101776/f5b6da83-8fea-4bbd-9b3d-3d6a67294f3b)
+
+
 2. Set Domain Controller’s NIC Private IP address to be static
-3. Create the Client VM (Windows 10) named “Client-1”. (Use the same Resource Group and Vnet that was created in Step 1)
-4. Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher)
+
+   go to your newly created virtual machine, then Network Settings > Network Interface/ IP Configuration
+
+   ![image](https://github.com/riquewill1977/configure-ad/assets/139101776/9cebbe64-70af-4cfc-9401-80a77bac0acc)
+
+   This will take you to the IP Configurations section. Click on ipconfig1 and change private IP settings from dynamic to static.
+
+   ![image](https://github.com/riquewill1977/configure-ad/assets/139101776/0736645a-8255-4a43-a0c8-f774c0ebce52)
+
+
+4. Create the Client VM (Windows 10) named “Client-1”. (Use the same Resource Group and Vnet that was created in Step 1)
+5. Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher)
