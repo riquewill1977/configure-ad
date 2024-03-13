@@ -81,7 +81,7 @@ fill out the highlighted sections
 
    ![Screenshot 2024-03-13 184104](https://github.com/riquewill1977/configure-ad/assets/139101776/e180260e-5a74-48dd-be44-34672443d594)
 
-7. Check back at Client-1 to see the ping succeed
+7. Check back at Client-1 to see the ping succeed. Now we're sure there's connectivity between Client-1 and DC-1.
 
    ![Screenshot 2024-03-13 184913](https://github.com/riquewill1977/configure-ad/assets/139101776/7ba390ee-27fd-4afc-beec-c6aa109048cb)
 
