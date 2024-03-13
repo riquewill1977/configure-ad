@@ -58,5 +58,13 @@ fill out the highlighted sections
    ![image](https://github.com/riquewill1977/configure-ad/assets/139101776/0736645a-8255-4a43-a0c8-f774c0ebce52)
 
 
-4. Create the Client VM (Windows 10) named “Client-1”. (Use the same Resource Group and Vnet that was created in Step 1)
-5. Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher)
+3. Create the Client VM (Windows 10) named “Client-1”. (Use the same Resource Group and Vnet that was created in Step 1)
+4. Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher)
+
+   ![image](https://github.com/riquewill1977/configure-ad/assets/139101776/acba3e4d-cf17-410c-b741-0156cf71d1eb)
+
+   ![image](https://github.com/riquewill1977/configure-ad/assets/139101776/7e314b89-2169-4fc5-bae5-af5493afcae2)
+
+   ![image](https://github.com/riquewill1977/configure-ad/assets/139101776/a5eb549b-cae0-4f0c-873c-832f9b398cb1)
+
+
