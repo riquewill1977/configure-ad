@@ -4,9 +4,7 @@
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-
-Welcome back! This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial delineates the procedural framework for integrating on-premises Active Directory within Azure Virtual Machines.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -20,7 +18,7 @@ Welcome back! This tutorial outlines the implementation of on-premises Active Di
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>Configuration Guidelines</h2>
 
 - Setup Resources In Azure
 - Ensure Connection between Client and Domain Controller
