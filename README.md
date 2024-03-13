@@ -67,4 +67,12 @@ fill out the highlighted sections
 
    ![image](https://github.com/riquewill1977/configure-ad/assets/139101776/a5eb549b-cae0-4f0c-873c-832f9b398cb1)
 
+<h2>Ensure Connectivity between the client and Domain Controller</h2>
+
+Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t [ip address] (perpetual ping)
+
+
+   ![image](https://github.com/riquewill1977/configure-ad/assets/139101776/3ac06ad9-9ab8-4acf-adb9-ba4622b29d06)
+
+
 
