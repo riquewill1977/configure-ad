@@ -69,10 +69,22 @@ fill out the highlighted sections
 
 <h2>Ensure Connectivity between the client and Domain Controller</h2>
 
-Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t [ip address] (perpetual ping)
+5. Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t [ip address] (perpetual ping)
 
 
    ![image](https://github.com/riquewill1977/configure-ad/assets/139101776/3ac06ad9-9ab8-4acf-adb9-ba4622b29d06)
 
 
+6. Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall.
+
+   Type wf.msc in the task bar for DC-1. This will bring up Windows Defender Firewall. Select Inbound Rules, then sort by protocol and look for ICMPv4. Enable both "Core Networking Diagnostics.
+
+   ![Screenshot 2024-03-13 184104](https://github.com/riquewill1977/configure-ad/assets/139101776/e180260e-5a74-48dd-be44-34672443d594)
+
+7. Check back at Client-1 to see the ping succeed
+
+   ![Screenshot 2024-03-13 184913](https://github.com/riquewill1977/configure-ad/assets/139101776/40d01138-1504-44a0-9d0d-c6a7f1e6e94f)
+
+
+   
 
