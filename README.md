@@ -135,7 +135,7 @@ fill out the highlighted sections
 
     Select the "Members of" tab and click add.
 
-    ![Screenshot 2024-03-14 130557](https://github.com/riquewill1977/configure-ad/assets/139101776/4e31638b-a138-4c34-958a-59b9503d0913)
+    ![Screenshot 2024-03-14 130448](https://github.com/riquewill1977/configure-ad/assets/139101776/e7a9ed68-c809-4693-975f-6ca47d708bc1)
 
     enter the object name "domain" in the box and click check names
 
