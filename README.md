@@ -169,7 +169,7 @@ fill out the highlighted sections
     ![Screenshot 2024-03-14 150039](https://github.com/riquewill1977/configure-ad/assets/139101776/4b5121da-fa1d-4736-a3b6-a22178259a06)
 
 
-18. From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
+17. From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
 
     You do this by clicking on network settings > Network Interface > DNS Servers
 
@@ -181,23 +181,59 @@ fill out the highlighted sections
 
     ![Screenshot 2024-03-14 152546](https://github.com/riquewill1977/configure-ad/assets/139101776/25f35bda-741c-477f-8716-eeb0a1a1de77)
 
+18. From the Azure Portal, restart Client-1
+
+    ![Screenshot 2024-03-14 154737](https://github.com/riquewill1977/configure-ad/assets/139101776/609cf8d6-6cbb-4ef3-af8c-4b1d5c8b5da4)
+
+19. Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart)
+
+    Run a quick ipconfig /all and you'll notice the DNS is now pointing to DC-1's Private IP.
+
+    ![Screenshot 2024-03-14 161401](https://github.com/riquewill1977/configure-ad/assets/139101776/7a5e8b37-9e84-4022-955b-feeb186189c1)
+
+    right-click start > System > Rename this PC (advanced) > Change. Then enter mydomain.com
+
+    ![Screenshot 2024-03-14 162023](https://github.com/riquewill1977/configure-ad/assets/139101776/140e478c-b76e-4a81-93a9-e9da0982faa9)
+
+    Enter Jane_admin credentials.
+
+    ![Screenshot 2024-03-14 162145](https://github.com/riquewill1977/configure-ad/assets/139101776/30615591-30be-4980-ba87-e9f66a0ce514)
+
+    You should now see a "Welcome" message. Click ok and you'll get a prompt to restart.
+
+    ![Screenshot 2024-03-14 162203](https://github.com/riquewill1977/configure-ad/assets/139101776/558305dd-c8ab-4ccc-9966-811336d7f79c)
+
+    ![Screenshot 2024-03-14 162219](https://github.com/riquewill1977/configure-ad/assets/139101776/848a8842-78f6-4cd4-83cf-103539f052ad)
+
+    Log back into Client-1 as Jane_Admin
+
+    ![Screenshot 2024-03-14 163829](https://github.com/riquewill1977/configure-ad/assets/139101776/45cf95ef-5f7f-4a5c-bf1f-75385091ec69)
+
+    right-click start > System > Remote desktop > Select users that can remotely access this PC
+
+    click add, then type "domain users" and click "Check Names"
+
+    ![Screenshot 2024-03-14 170451](https://github.com/riquewill1977/configure-ad/assets/139101776/c60766bc-98c2-4a97-ba7f-e4b4efd3d8f1)
+
+    ![Screenshot 2024-03-14 170510](https://github.com/riquewill1977/configure-ad/assets/139101776/5aab0d11-15b8-405c-9938-6a2715c704df)
+
+20. Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
+
+    ![Screenshot 2024-03-14 171434](https://github.com/riquewill1977/configure-ad/assets/139101776/20607ee5-b72d-4f47-a9c4-65092daffa14)
+
+    <h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
+
+21. 
+
+
+
+
+
+
+
+
+
+
+
 
     
-
-
-
-    
-
-    
-
-
-
-
-
-    
-
-
-
-
-
-
