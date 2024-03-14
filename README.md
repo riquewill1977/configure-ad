@@ -133,15 +133,20 @@ fill out the highlighted sections
 
     ![Screenshot 2024-03-14 130339](https://github.com/riquewill1977/configure-ad/assets/139101776/aa6c733b-43e1-4eb2-9bf1-701f267815e2)
 
-    ![Screenshot 2024-03-14 130448](https://github.com/riquewill1977/configure-ad/assets/139101776/ac0bc79c-e129-47d9-9ccf-a443da9a4f3d)
+    Select the "Members of" tab and click add.
 
-    ![Screenshot 2024-03-14 130533](https://github.com/riquewill1977/configure-ad/assets/139101776/64538fc8-a574-43ec-8904-81d87fd6fea3)
+    ![Screenshot 2024-03-14 130557](https://github.com/riquewill1977/configure-ad/assets/139101776/4e31638b-a138-4c34-958a-59b9503d0913)
 
-    ![Screenshot 2024-03-14 130557](https://github.com/riquewill1977/configure-ad/assets/139101776/1fde84c2-054f-4a6d-a966-810717c089d1)
+    enter the object name "domain" in the box and click check names
+
+    ![Screenshot 2024-03-14 130533](https://github.com/riquewill1977/configure-ad/assets/139101776/4bb96ab7-f9a9-4465-a98e-886181d030e2)
+
+    select "Domain Admins" and click ok.
+
+    ![Screenshot 2024-03-14 130557](https://github.com/riquewill1977/configure-ad/assets/139101776/426b4900-b72e-43ac-9523-6a330b0847aa)
+
 
     
-
-
 
 
 
