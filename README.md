@@ -235,6 +235,15 @@ Click “Remote Desktop”
     <h2>Create a bunch of additional users and attempt to log into client-1 with one of the users</h2>
 
 24. Log into DC-1 as jane_admin
+25. Open PowerShell_ise as an administrator
+
+    ![Screenshot 2024-03-14 182549](https://github.com/riquewill1977/configure-ad/assets/139101776/a0a290aa-d10e-4496-9c03-761ec126dea0)
+
+26. Create a new File and paste the contents of the <a href"https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1">script</a> into it 
+
+
+
+
 
 
 
