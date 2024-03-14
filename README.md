@@ -156,7 +156,19 @@ fill out the highlighted sections
 
     <h2>Join Client-1 to your domain (mydomain.com)</h2>
 
+    Here's a visual to help illustrate what we'll be doing. Right now Client-1 virtual NIC DNS settings is pointing to the vnet's DNS server. 
+
+    ![Azure Virtual Network](https://github.com/riquewill1977/configure-ad/assets/139101776/d6699807-e966-4849-acef-2b44cd5dea16)
+
+    We want Client-1 virtual NIC to point to DC-1 static IP in order to join DC-1 Domain.
+
+    ![Domain Controller Static](https://github.com/riquewill1977/configure-ad/assets/139101776/5948d973-6725-491e-92c0-2877392e7b13)
+
+
+
 17. From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
+
+    
 
 
 
