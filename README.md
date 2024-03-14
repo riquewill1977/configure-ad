@@ -154,6 +154,10 @@ fill out the highlighted sections
 
     ![Screenshot 2024-03-14 140454](https://github.com/riquewill1977/configure-ad/assets/139101776/efa3e9f2-3e12-42a8-b09f-7dad388e9ee9)
 
+    <h2>Join Client-1 to your domain (mydomain.com)</h2>
+
+17. From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
+
 
 
 
