@@ -145,6 +145,18 @@ fill out the highlighted sections
 
     ![Screenshot 2024-03-14 130557](https://github.com/riquewill1977/configure-ad/assets/139101776/426b4900-b72e-43ac-9523-6a330b0847aa)
 
+15. Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”
+16. User jane_admin as your admin account from now on
+
+    ![Screenshot 2024-03-14 140323](https://github.com/riquewill1977/configure-ad/assets/139101776/298c717d-d069-4e91-86c6-d0c16b2c121a)
+
+    verify that you are Jane buy opening command prompt and typing "whoami"
+
+    ![Screenshot 2024-03-14 140454](https://github.com/riquewill1977/configure-ad/assets/139101776/efa3e9f2-3e12-42a8-b09f-7dad388e9ee9)
+
+
+
+
 
     
 
