@@ -251,6 +251,27 @@ Click “Remote Desktop”
 
     ![Screenshot 2024-03-14 185326](https://github.com/riquewill1977/configure-ad/assets/139101776/166b9c8d-348b-4d6d-850a-b10758874eae)
 
+29. Attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+
+    ![Screenshot 2024-03-14 190112](https://github.com/riquewill1977/configure-ad/assets/139101776/66173bda-a90e-4dcb-8c82-8ceb9a774485)
+
+    ![Screenshot 2024-03-14 190129](https://github.com/riquewill1977/configure-ad/assets/139101776/3fdc2702-c764-4cdd-81e5-18e356aa235e)
+
+    Open command prompt to verify
+
+    ![Screenshot 2024-03-14 190414](https://github.com/riquewill1977/configure-ad/assets/139101776/accf053d-e8d8-4254-8b95-15c7fadc2e6e)
+
+    you will also see your user in C:\users
+
+    ![Screenshot 2024-03-14 190456](https://github.com/riquewill1977/configure-ad/assets/139101776/606e9cc8-ecb5-40f8-8865-24a75d71c057)
+
+    This will conclude our lab. Great job!
+
+
+
+
+
+
 
 
 
