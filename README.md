@@ -218,16 +218,23 @@ Click “Remote Desktop”
 
     ![Screenshot 2024-03-14 163829](https://github.com/riquewill1977/configure-ad/assets/139101776/45cf95ef-5f7f-4a5c-bf1f-75385091ec69)
 
+    ![Screenshot 2024-03-14 170257](https://github.com/riquewill1977/configure-ad/assets/139101776/94c19043-f6a9-42d7-9247-3cf4646845f9)
+
+
 22. Click “Remote Desktop”
 
     ![Screenshot 2024-03-14 170319](https://github.com/riquewill1977/configure-ad/assets/139101776/24915168-578f-417e-a988-574a376e501f)
 
 
-    click add, then type "domain users" and click "Check Names"
+23. Allow “domain users” access to remote desktop
 
     ![Screenshot 2024-03-14 170451](https://github.com/riquewill1977/configure-ad/assets/139101776/c60766bc-98c2-4a97-ba7f-e4b4efd3d8f1)
 
     ![Screenshot 2024-03-14 170510](https://github.com/riquewill1977/configure-ad/assets/139101776/5aab0d11-15b8-405c-9938-6a2715c704df)
+
+    <h2>Create a bunch of additional users and attempt to log into client-1 with one of the users</h2>
+
+24. Log into DC-1 as jane_admin
 
 
 
