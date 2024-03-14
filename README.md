@@ -205,6 +205,10 @@ fill out the highlighted sections
 
     ![Screenshot 2024-03-14 162219](https://github.com/riquewill1977/configure-ad/assets/139101776/848a8842-78f6-4cd4-83cf-103539f052ad)
 
+20. Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
+
+    ![Screenshot 2024-03-14 171434](https://github.com/riquewill1977/configure-ad/assets/139101776/20607ee5-b72d-4f47-a9c4-65092daffa14)
+
     Log back into Client-1 as Jane_Admin
 
     ![Screenshot 2024-03-14 163829](https://github.com/riquewill1977/configure-ad/assets/139101776/45cf95ef-5f7f-4a5c-bf1f-75385091ec69)
@@ -217,9 +221,7 @@ fill out the highlighted sections
 
     ![Screenshot 2024-03-14 170510](https://github.com/riquewill1977/configure-ad/assets/139101776/5aab0d11-15b8-405c-9938-6a2715c704df)
 
-20. Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
 
-    ![Screenshot 2024-03-14 171434](https://github.com/riquewill1977/configure-ad/assets/139101776/20607ee5-b72d-4f47-a9c4-65092daffa14)
 
     <h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
 
