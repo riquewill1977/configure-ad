@@ -218,7 +218,10 @@ Click “Remote Desktop”
 
     ![Screenshot 2024-03-14 163829](https://github.com/riquewill1977/configure-ad/assets/139101776/45cf95ef-5f7f-4a5c-bf1f-75385091ec69)
 
-    right-click start > System > Remote desktop > Select users that can remotely access this PC
+22. Click “Remote Desktop”
+
+    ![Screenshot 2024-03-14 170319](https://github.com/riquewill1977/configure-ad/assets/139101776/24915168-578f-417e-a988-574a376e501f)
+
 
     click add, then type "domain users" and click "Check Names"
 
