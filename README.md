@@ -209,7 +209,12 @@ fill out the highlighted sections
 
     ![Screenshot 2024-03-14 171434](https://github.com/riquewill1977/configure-ad/assets/139101776/20607ee5-b72d-4f47-a9c4-65092daffa14)
 
-    Log back into Client-1 as Jane_Admin
+    
+
+    <h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
+
+21. Log into Client-1 as mydomain.com\jane_admin and open system properties
+Click “Remote Desktop”
 
     ![Screenshot 2024-03-14 163829](https://github.com/riquewill1977/configure-ad/assets/139101776/45cf95ef-5f7f-4a5c-bf1f-75385091ec69)
 
@@ -220,12 +225,6 @@ fill out the highlighted sections
     ![Screenshot 2024-03-14 170451](https://github.com/riquewill1977/configure-ad/assets/139101776/c60766bc-98c2-4a97-ba7f-e4b4efd3d8f1)
 
     ![Screenshot 2024-03-14 170510](https://github.com/riquewill1977/configure-ad/assets/139101776/5aab0d11-15b8-405c-9938-6a2715c704df)
-
-
-
-    <h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
-
-21. 
 
 
 
