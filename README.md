@@ -239,7 +239,7 @@ Click “Remote Desktop”
 
     ![Screenshot 2024-03-14 182549](https://github.com/riquewill1977/configure-ad/assets/139101776/a0a290aa-d10e-4496-9c03-761ec126dea0)
 
-26. Create a new File and paste the contents of the <a href"https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1">script</a> into it 
+26. Create a new File and paste the contents of the <a href="https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1">script</a> into it 
 
 
 
