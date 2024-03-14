@@ -113,7 +113,36 @@ fill out the highlighted sections
 
     ![Screenshot 2024-03-13 211117](https://github.com/riquewill1977/configure-ad/assets/139101776/b87ec160-afec-4cec-9776-38a45a604169)
    
-<h2>Create an Admin and Normal User Account in AD</h2>
+   <h2>Create an Admin and Normal User Account in AD</h2>
+
+11. In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
+12. Create a new OU named “_ADMINS”
+13. Create a new employee named “Jane Doe” (same password) with the username of “jane_admin”
+
+    ![Screenshot 2024-03-13 211319](https://github.com/riquewill1977/configure-ad/assets/139101776/36235226-1b10-4d3e-8e13-de5585f8be34)
+
+    ![Screenshot 2024-03-13 212529](https://github.com/riquewill1977/configure-ad/assets/139101776/7cde1c9e-4bda-43fb-b22f-2c19940d6878)
+
+    ![Screenshot 2024-03-13 212739](https://github.com/riquewill1977/configure-ad/assets/139101776/af5f5e69-80c7-4bf1-b4e4-d017cfd2f49d)
+
+    ![Screenshot 2024-03-13 221544](https://github.com/riquewill1977/configure-ad/assets/139101776/ed6bc82d-04ea-4fe2-bd9a-b99e81b87f5d)
+
+    ![Screenshot 2024-03-13 221655](https://github.com/riquewill1977/configure-ad/assets/139101776/2a7ea520-2c85-45f3-a5ea-1bff03a7445e)
+
+14. Add jane_admin to the “Domain Admins” Security Group
+
+    ![Screenshot 2024-03-14 130339](https://github.com/riquewill1977/configure-ad/assets/139101776/aa6c733b-43e1-4eb2-9bf1-701f267815e2)
+
+    ![Screenshot 2024-03-14 130448](https://github.com/riquewill1977/configure-ad/assets/139101776/ac0bc79c-e129-47d9-9ccf-a443da9a4f3d)
+
+    ![Screenshot 2024-03-14 130533](https://github.com/riquewill1977/configure-ad/assets/139101776/64538fc8-a574-43ec-8904-81d87fd6fea3)
+
+    ![Screenshot 2024-03-14 130557](https://github.com/riquewill1977/configure-ad/assets/139101776/1fde84c2-054f-4a6d-a966-810717c089d1)
+
+    
+
+
+
 
 
 
