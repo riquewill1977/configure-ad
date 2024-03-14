@@ -85,7 +85,32 @@ fill out the highlighted sections
 
    ![Screenshot 2024-03-13 184913](https://github.com/riquewill1977/configure-ad/assets/139101776/7ba390ee-27fd-4afc-beec-c6aa109048cb)
 
+   <h2>Install Active Directory</h2>
+
+8.  Login to DC-1 and install Active Directory Domain Services
+
+   From the Server Manager Dashboard, click "Add roles and features"
+
+   ![Screenshot 2024-03-13 204629](https://github.com/riquewill1977/configure-ad/assets/139101776/74ba6ad3-4f47-41e2-86ea-f56869dbcf98)
+
+   Select Active Directory Domain Services.  
+
+   ![Screenshot 2024-03-13 204749](https://github.com/riquewill1977/configure-ad/assets/139101776/0492c58b-3bb3-45b9-b9c9-4622d4b7b855)
+
+   Then Click Next on all prompts and close.
+
+   ![Screenshot 2024-03-13 204901](https://github.com/riquewill1977/configure-ad/assets/139101776/c9334b5a-ca19-4e41-ba3a-03f1613f3264)
+
+   Click on the Yellow notification at the top right and click on "Promote this server to a domain controller"
+
+   ![Screenshot 2024-03-13 205346](https://github.com/riquewill1977/configure-ad/assets/139101776/82a30faf-109c-4eff-851c-94b33fc0e9d1)
+
+9. Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
+
+    ![Screenshot 2024-03-13 205436](https://github.com/riquewill1977/configure-ad/assets/139101776/9b2ccd17-f53c-4927-bcea-6a577dcda29a)
 
 
-   
+
+
+
 
