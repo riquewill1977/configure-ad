@@ -105,10 +105,15 @@ fill out the highlighted sections
 
    ![Screenshot 2024-03-13 205346](https://github.com/riquewill1977/configure-ad/assets/139101776/82a30faf-109c-4eff-851c-94b33fc0e9d1)
 
-9. Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
+9. Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is). Enter a password and "Next" through all prompts.
 
     ![Screenshot 2024-03-13 205436](https://github.com/riquewill1977/configure-ad/assets/139101776/9b2ccd17-f53c-4927-bcea-6a577dcda29a)
 
+10. Restart and then log back into DC-1 as user: mydomain.com\labuser
+
+    ![Screenshot 2024-03-13 211117](https://github.com/riquewill1977/configure-ad/assets/139101776/b87ec160-afec-4cec-9776-38a45a604169)
+   
+<h2>Create an Admin and Normal User Account in AD</h2>
 
 
 
